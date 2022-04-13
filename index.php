@@ -7,19 +7,12 @@
     </head>
     <body>
         <div class="container min-vh-100 d-flex flex-column">
-            <header class="p-5 text-center bg-primary">Header</header>
-            <nav class="p-3 bg-warning">
-                <ul class="nav justify-content-center">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Урок 1</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Урок 1</a>
-                    </li>
-                </ul>
-            </nav>
+            <?php
+                require_once 'inc/header.php';
+                require_once 'inc/nav.php';
+            ?>
             <main class="p-3 text-center flex-fill">Main</main>
-            <footer class="p-5 text-center bg-info">Footer</footer>
+            <?php require_once 'inc/footer.php'; ?>
         </div>
     </body>
 </html>

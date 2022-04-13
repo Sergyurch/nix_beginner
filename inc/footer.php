@@ -1,0 +1,1 @@
+<footer class="p-5 text-center bg-info">Footer</footer>
